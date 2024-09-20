@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1" appversion="6.1.14" apprev="18105">
+  <panorama id="node1">
+    <input levelbias="0.400" levelingpitch="0" height="1000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000" width="1000" overlap="1">
+      <level predecode="0" height="1000" preload="0" width="1000"/>
+      <level predecode="1" height="500" preload="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" pan="0" tilt="0" projection="4"/>
+      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" pan="360" tilt="90" fovstereographic="270" scaletofit="1"/>
+    </view>
+    <userdata latitude="" description="" datetime="" comment="" tags="scenes" copyright="" heading="0" customnodeid="" info="" author="" longitude="" nodeid="node1" source="" title=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label borderradius="1" enabled="1" textalpha="1" height="20" backgroundcolor="0xffffff" wordwrap="1" background="1" backgroundalpha="1" width="180" textcolor="0x000000" bordercolor="0x000000" border="1" borderalpha="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot pan="-14.62" description="" id="Salón" tilt="-4.56" skinid="ht_node" target="168.3/-4.6/70.0" title="Salón" url="{node2}"/>
+      <hotspot pan="-109.74" description="" id="Vista entrada" tilt="-3.92" skinid="ht_image" target="" title="Vista entrada" url="images/Cam_02_mod.jpg"/>
+      <hotspot pan="-60.89" description="" id="Vista general" tilt="-2.92" skinid="ht_image" target="" title="Vista general" url="images/Cam_01_mod.jpg"/>
+      <hotspot pan="-180.84" description="" id="Vista desde salón" tilt="-9.72" skinid="ht_image" target="" title="Vista desde salón" url="images/Cam_03_mod.jpg"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" blendtime="1" zoomfov="20" zoomoutpause="1" enabled="1" blendcolor="0x000000" zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" softedge="0" zoomin="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control lockedmouse="0" lockedkeyboard="0" hideabout="0" invertwheel="0" speedwheel="1" simulatemass="1" contextfullscreen="1" rubberband="0" dblclickfullscreen="0" contextprojections="0" lockedwheel="0" invertcontrol="1" contextvr="1" sensitivity="8" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input levelbias="0.400" levelingpitch="0" height="1000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000" width="1000" overlap="1">
+      <level predecode="0" height="1000" preload="0" width="1000"/>
+      <level predecode="1" height="500" preload="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" pan="0" tilt="0" projection="4"/>
+      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" pan="360" tilt="90" fovstereographic="270" scaletofit="1"/>
+    </view>
+    <userdata latitude="" description="" datetime="" comment="" tags="scenes" copyright="" heading="0" customnodeid="" info="" author="" longitude="" nodeid="node2" source="" title=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label borderradius="1" enabled="1" textalpha="1" height="20" backgroundcolor="0xffffff" wordwrap="1" background="1" backgroundalpha="1" width="180" textcolor="0x000000" bordercolor="0x000000" border="1" borderalpha="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot pan="-192.54" description="" id="Cocina" tilt="-4.63" skinid="ht_node" target="-14.2/-4.9/70.0" title="Cocina" url="{node1}"/>
+      <hotspot pan="-171.14" description="" id="Vista entrada" tilt="1.14" skinid="ht_image" target="" title="Vista entrada" url="images/Cam_02_mod.jpg"/>
+      <hotspot pan="-158.31" description="" id="Vista general" tilt="-0.32" skinid="ht_image" target="" title="Vista general" url="images/Cam_01_mod.jpg"/>
+      <hotspot pan="-195.1" description="" id="Vista desde salón" tilt="2.04" skinid="ht_image" target="" title="Vista desde salón" url="images/Cam_03_mod.jpg"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" zoomspeed="2" blendtime="1" zoomfov="20" zoomoutpause="1" enabled="1" blendcolor="0x000000" zoomafteroutfov="20" zoomout="0" zoomafterinfov="90" softedge="0" zoomin="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control lockedmouse="0" lockedkeyboard="0" hideabout="0" invertwheel="0" speedwheel="1" simulatemass="1" contextfullscreen="1" rubberband="0" dblclickfullscreen="0" contextprojections="0" lockedwheel="0" invertcontrol="1" contextvr="1" sensitivity="8" lockedkeyboardzoom="0"/>
+  </panorama>
+  <masternode>
+    <userdata latitude="" description="" datetime="" comment="" tags="" copyright="" heading="0" customnodeid="" info="" author="" longitude="" nodeid="master" source="" title=""/>
+  </masternode>
+</tour>
